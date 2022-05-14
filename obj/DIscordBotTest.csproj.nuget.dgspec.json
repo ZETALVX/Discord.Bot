@@ -1,0 +1,92 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Boss\\source\\repos\\DIscordBotTest\\DIscordBotTest\\DIscordBotTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Boss\\source\\repos\\DIscordBotTest\\DIscordBotTest\\DIscordBotTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Boss\\source\\repos\\DIscordBotTest\\DIscordBotTest\\DIscordBotTest.csproj",
+        "projectName": "DIscordBotTest",
+        "projectPath": "C:\\Users\\Boss\\source\\repos\\DIscordBotTest\\DIscordBotTest\\DIscordBotTest.csproj",
+        "packagesPath": "C:\\Users\\Boss\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Boss\\source\\repos\\DIscordBotTest\\DIscordBotTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Boss\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Discord.Net": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "Discord.Net.Commands": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "Discord.Net.Core": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "Discord.Net.Rest": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "Discord.Net.WebSocket": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "Discord.Net.Webhook": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
