@@ -1,4 +1,4 @@
-# DIscordBot
+# DiscordBot
 
 Here you can find my video with the tutorial: https://www.youtube.com/watch?v=1ryTfM0BL3M
 
