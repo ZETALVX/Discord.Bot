@@ -147,6 +147,15 @@ namespace TutorialBot
                 //log in the log channel with the action
                 await channel.SendMessageAsync("ACTION: Bot removed the message for BAD WORDS");
             }
+            
+           if (text.Contains("bot write me in private"))
+            {
+                //Private message to users
+                ulong userID = 0123456789;
+                var user = _client.GetUserAsync(userID).Result;
+                var channell = await user.CreateDMChannelAsync();
+                await channell.SendMessageAsync("what's up");
+            } 
         }
     }
 }
